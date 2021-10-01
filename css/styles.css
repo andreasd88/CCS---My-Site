@@ -78,7 +78,7 @@ h3 {
 
 @media screen and (min-width: 300px) {
   .top-container {
-    background: url(/images/background.png) no-repeat;
+    background: url(../images/background.png) no-repeat;
     background-size: cover;
     background-position: center center;
   }
