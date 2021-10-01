@@ -2,6 +2,7 @@ body {
   text-align: center;
   margin: 0;
   font-family: "Merriweather", serif;
+  color: #40514e;
 }
 h1 {
   font-family: "Sacramento", cursive;
@@ -12,13 +13,35 @@ h1 {
 h2 {
   margin: 10px auto 0 auto;
   font-family: "Montserrat", sans-serif;
-  color: #05549e;
+  color: #66bfbf;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
-  color: #9e1111;
+  color: #11999e;
   font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  border: dotted #b5f3f3 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+a {
+  color: #40514e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
 }
 
 .top-container {
@@ -31,23 +54,27 @@ h3 {
   color: #7abc30;
 }
 
-.middel-container {
+.middle-container {
+  margin: 100px 0;
 }
-.profile {
-  background-color: #00accc;
-}
+
 .bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
 }
 
 .bilde {
   text-decoration: underline;
+}
+.intro {
+  width: 30%;
+  margin: auto;
 }
 .skills {
 }
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
-  line-height: 2;
   text-align: left;
 }
 
@@ -69,11 +96,14 @@ h3 {
   float: right;
 }
 
-.discgolf-skill-description {
-  clear: left;
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
 }
-.fishing-skill-description {
-  clear: right;
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0 0 0;
 }
 
 @media screen and (min-width: 300px) {
@@ -102,4 +132,31 @@ h3 {
   h2 {
     font-size: 2.5rem;
   }
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc48d);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc48d);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc48d);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc48d);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc48d);
+  text-decoration: none;
 }
