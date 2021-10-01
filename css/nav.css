@@ -25,7 +25,13 @@ nav a:hover {
 }
 
 @media screen and (min-width: 768px) {
+  nav li:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   nav ul {
+    position: relative;
     flex-direction: row;
     justify-content: center;
   }
