@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  color: #e26d7b;
+  margin: 0px auto 10px auto;
+}
+
+h2 {
+  margin: 10px auto 0 auto;
+  font-family: "Montserrat", sans-serif;
+  color: #05549e;
+  font-weight: normal;
+}
+
+h3 {
+  color: #9e1111;
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-container {
+  background: url(/images/background.png) no-repeat;
+  background-size: cover;
+  height: 50%;
+}
+
+.top-texth2 {
+  color: #7abc30;
+}
+
+.middel-container {
+}
+.profile {
+  background-color: #00accc;
+}
+.bottom-container {
+}
+
+.bilde {
+  text-decoration: underline;
+}
+.skills {
+  background-color: #e26d7b;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.profile {
+}
+.discgolf {
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+  margin-right: 30px;
+  float: left;
+}
+
+.fishing {
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+  margin-right: 30px;
+  float: right;
+}
+
+.discgolf-skill-description {
+  clear: left;
+}
+.fishing-skill-description {
+  clear: right;
+}
+
+@media screen and (min-width: 300px) {
+  .top-container {
+    background: url(/images/background.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .top-container {
+    background: url(/images/background.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  h1 {
+    font-size: 5.5rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+}
