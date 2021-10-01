@@ -1,3 +1,3 @@
-# CCS---My-Site
+# My-Site
 
 Oppgave første hjemmeside
